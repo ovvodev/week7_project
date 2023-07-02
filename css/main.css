@@ -2,6 +2,8 @@ html {
     box-sizing: border-box;
     font-size: 16px;
     font-family: 'Roboto','Open Sans', sans-serif;
+    
+    
   }
   
   *, *:before, *:after {
@@ -10,8 +12,11 @@ html {
   
   body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     font-weight: normal;
+    max-width: 1200px;
   }
   
   ol, ul {
@@ -22,6 +27,9 @@ html {
     max-width: 100%;
     height: auto;
   }
+
+/* End of reset css start of header*/
+
 
   @media screen and (min-width: 660px){
     nav ul {
@@ -68,8 +76,185 @@ html {
     border: none;
   }
 
-  
+/* End of header start of main*/
 
+.main-container {
+    margin: 5rem 4rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+   
+}
+
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #292E47;
+    padding: 2rem 1rem 1rem 0;
+}
+
+
+main p {
+    padding-bottom: 2rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #6B708D;
+}
+
+.main-container button {
+    color: white;
+    padding: 0.6rem 1.5rem;
+    background-color: #072AC8;
+    border: none;  
+}
+
+.main-container a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-weight: 400;
+    color: #6B708D;
+    padding: 2rem;
+}
+
+@media screen and (min-width: 1081px){
+    .hero-section img:nth-child(2){
+        width: 400px;
+        position: absolute;
+        right: 10px;
+        top:0%;
+    
+    }
+    
+    .hero-section img:nth-child(1){
+        width: 300px;
+        position: relative;
+        top: -50px;
+        right: -50px;
+        z-index: 99;
+    }
+    
+    .hero-section img:nth-child(3){
+        width: 250px;
+        position: relative;
+        top: 240px;
+        right: -40px;
+        z-index: 99;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .main-container{
+        display: block;
+        text-align: center;
+        position: relative;
+        
+    }
+
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-section img:nth-child(2){
+        width: 25rem;
+        position: absolute;
+        top: auto
+        
+    
+    }
+    
+    .hero-section img:nth-child(1){
+        width: 20rem;
+        position: relative;
+        z-index: 99;
+        right: 140px;
+        
+        
+    }
+    
+    .hero-section img:nth-child(3){
+        width: 18rem;
+        position: relative;
+        z-index: 99;
+        top: 60px;
+        left: 130px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 459px){
+    
+    .main-container button {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .hero-section img {
+        display:none;
+    }
+}
+
+/* Logos section start*/
+.logos img {
+    width: 7rem;
+    padding: 1rem 1rem;
+    filter: grayscale(100%); 
+    z-index: 99;
+}
+.logos img:hover{
+    filter: none;
+    
+}
+
+/* Projects */
+
+.project {
+    width: 15rem;
+    height: 20rem;
+    box-shadow: -8px 12px 24px -11px rgba(0,0,0,0.7);
+-webkit-box-shadow: -8px 12px 24px -11px rgba(0,0,0,0.7);
+-moz-box-shadow: -8px 12px 24px -11px rgba(0,0,0,0.7);
+}
+h2{
+    margin-left: 4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #292E47;
+    padding: 2rem 1rem 1rem 0;
+}
+ h3{
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #292E47;
+    padding: 1rem 1rem 1rem 0;
+ }
+
+ .project p{
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #6B708D;
+ }
+
+.project img{
+    width: 15rem;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.project a{
+    margin-left: 1rem;
+    padding-left: 0;
+    color: #072AC8;
+}
+/* End of main start of footer*/
 
 
   @media screen and (min-width: 660px){
