@@ -69,6 +69,7 @@ html {
     color: #072AC8;
   }
 
+ button,
   nav ul button {
     color: white;
     padding: 0.6rem 1.5rem;
@@ -253,6 +254,151 @@ h2{
     margin-left: 1rem;
     padding-left: 0;
     color: #072AC8;
+}
+
+@media screen and (max-width: 1082px ) {
+    .projects-section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .project {
+        width: 70%;
+        height: 20rem;
+        margin-bottom: 2rem;
+        
+    }
+    .project img{
+        width: 100%;
+        height: 10rem;
+        object-fit: cover;
+    }
+}
+
+/*  Testimonial section */
+section.main-container{
+    padding: 0;
+    margin: 0;
+    align-items:self-start;
+}
+.testimonial-section{
+    width: 90%;
+    height: 18%;
+    margin: 0 auto;
+    background-color: #292E47;
+    background-image: url("../testimonial-section/orbit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonial-section img{
+    width: 11rem;
+    padding: 2rem 1rem;
+}
+.testimonial-section  section h3{
+    text-align: center;
+    margin: auto;
+    padding: 2rem 0 0 0;
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.testimonial-section section p{
+    text-align: center;
+    font-size: 1.1rem;
+    color: #FFC600;
+    margin: 0;
+    padding: 0;
+}
+#profile-pict{
+    height: 50px;
+   width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 0;
+    margin: 0 0.5rem;
+
+}
+#profile-text p{
+    text-align: left;
+    color: #A2D6F9;
+    padding: 0;
+    margin: 0;
+}
+
+#profile-text a{
+    text-align: left;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1082px ){
+    .testimonial-section img{
+        display: none;
+    }
+    .testimonial-section section p{
+        padding-top: 1rem;
+    }
+    #profile-pict {
+        display: inline;
+    }
+    #profile-text p{
+        text-align: center;
+    }
+}
+
+/* service section */
+.circular-background img{
+    margin: 2rem;
+    width: 2rem;
+    height: auto;
+}
+.circular-background{
+    margin: 2rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%; 
+    background-color: #ECF7FF; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*mail subscription*/ 
+.form-section {
+    margin: 0 auto;
+    width: 90%;
+    height: 20rem;
+    background-color: #FFC600;
+    text-align: center;
+}
+
+.form-section h2{
+    padding-top: 5rem;
+    margin: auto;
+}
+
+.form-section button {
+    height: 3.2rem;
+}
+
+.form-section input {
+    height: 3.2rem;
+    border: none;
+    width: 15rem;
+    font-size: 0.7rem;
+    color: black;
+    padding-left: 2.3rem;
+}
+
+.form-icon {
+    position:relative;
+    left: 30px;
+    bottom: -7px;
+    height: 1.3rem;
 }
 /* End of main start of footer*/
 
