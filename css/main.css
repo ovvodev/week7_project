@@ -213,6 +213,10 @@ main p {
 }
 
 /* Projects */
+.main-container.projects-section{
+   justify-content:space-evenly;
+    
+}
 
 .project {
     width: 15rem;

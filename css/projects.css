@@ -1,0 +1,31 @@
+.main-container:nth-child(1){
+    align-items:end;
+}
+
+.title h3{
+    color:#6B708D ;
+    margin: 0;
+    padding: 0;
+}
+
+.complition-date p{
+    padding: 0;
+    margin: 0;
+}
+
+.complition-date span {
+    color:rgb(128, 126, 126);
+}
+.main-pict{
+    height: 25rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    object-fit: cover;
+}
+
+.project-description{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: left;
+}
