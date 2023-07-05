@@ -84,7 +84,7 @@ html {
     padding-bottom: 5rem;
     display: flex;
     justify-content:space-between;
-    align-items: center;
+   align-items: center;
     position: relative;
    
 }
@@ -201,11 +201,14 @@ main p {
 }
 
 /* Logos section start*/
+.logos a {
+    z-index: 99;
+}
 .logos img {
     width: 7rem;
     padding: 1rem 1rem;
     filter: grayscale(100%); 
-    z-index: 99;
+    z-index: 98;
 }
 .logos img:hover{
     filter: none;

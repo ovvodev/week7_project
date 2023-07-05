@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
     <header>
@@ -24,7 +25,35 @@
         </nav>
     </header>
     <main>
-
+        <div>
+            <h1>Contact Us</h1>
+        </div>
+        <div id="overlay">
+            <div id="overlay-content"></div>
+          </div>
+        <form action="contact.html" method="get" id="form" novalidate>
+            <ul>
+                <li>
+                    <label for="name">Full Name *</label>
+                    <input type="text" name="user_name" id="name" placeholder="Enter your full name">
+                </li>
+                <ul class="main-container">
+                    <li>
+                        <label for="mail">Email</label>
+                        <input type="email" name="user_email" id="mail" placeholder="Enter your email address">
+                    </li>
+                    <li>
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="user_phone" id="phone" placeholder="Enter your phone number">
+                    </li>
+                </ul>
+                <li>
+                    <label for="msg">Message</label>
+                    <textarea name="user_msg" id="msg" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+                </li>
+            </ul>
+            <button id="submit-button" type="submit">Submit</button>
+        </form>
     </main>
     <footer class="footer-container">
         <section>
@@ -48,6 +77,6 @@
            </div>
         </section>
     </footer>
-    <script src="javascript/main.js"></script>
+    <script src="javascript/validation.js"></script>
 </body>
 </html>
