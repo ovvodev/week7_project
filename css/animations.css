@@ -20,7 +20,15 @@
     left: 0; 
   }
 
-  
+
+
+button:hover{
+    background-color: #0022b7;
+    box-shadow: 3px 2px 4px 1px rgba(0,0,0,0.38);
+-webkit-box-shadow: 3px 2px 4px 1px rgba(0,0,0,0.38);
+-moz-box-shadow: 3px 2px 4px 1px rgba(0,0,0,0.38);
+    cursor: pointer;
+}
 
 .slide-top {
     -webkit-transform: translateY(0);

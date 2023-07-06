@@ -134,7 +134,7 @@ main p {
         position: relative;
         top: -50px;
         right: -50px;
-        z-index: 99;
+        z-index: 96;
     }
     
     .hero-section img:nth-child(3){
@@ -142,7 +142,7 @@ main p {
         position: relative;
         top: 240px;
         right: -40px;
-        z-index: 99;
+        z-index: 96;
     }
 }
 
@@ -171,7 +171,7 @@ main p {
     .hero-section img:nth-child(1){
         width: 20rem;
         position: relative;
-        z-index: 99;
+        z-index: 96;
         right: 140px;
         
         
@@ -180,7 +180,7 @@ main p {
     .hero-section img:nth-child(3){
         width: 18rem;
         position: relative;
-        z-index: 99;
+        z-index: 97;
         top: 60px;
         left: 130px;
         
@@ -202,13 +202,13 @@ main p {
 
 /* Logos section start*/
 .logos a {
-    z-index: 99;
+    z-index: 97;
 }
 .logos img {
     width: 7rem;
     padding: 1rem 1rem;
     filter: grayscale(100%); 
-    z-index: 98;
+    z-index: 97;
 }
 .logos img:hover{
     filter: none;
